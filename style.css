@@ -1,0 +1,180 @@
+        header {
+            display: flex;
+            justify-content: space-between;
+
+
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        #meesho {
+            height: 200px;
+            width: 200px;
+            margin-top: 10px;
+            margin-left: 60px;
+        }
+
+        #search {
+            height: 50px;
+            width: 400px;
+            border: 1px solid black;
+            text-indent: 20px;
+            border-radius: 10px;
+            display: flex;
+            font-size: 25px;
+            justify-content: space-around;
+
+        }
+
+        #Become {
+            gap: 20px;
+        }
+
+        #profile {
+            width: 100px;
+            height: 100px;
+
+
+        }
+
+        #icon {
+            font-size: 30px;
+            color: #5c114d;
+        }
+
+        #cart {
+            height: 100px;
+            width: 100px;
+        }
+
+        #ic {
+            font-size: 30px;
+            color: #5c114d;
+        }
+
+        #line {
+            margin-top: -120px;
+        }
+
+        #Women {
+            justify-content: space-between;
+        }
+
+        #pic {
+            background-image: url(https://images.meesho.com/images/marketing/1744783895378.webp);
+            height: 400px;
+            width: 1450px;
+            background-repeat: no-repeat;
+            padding: 0px;
+            margin-left: -15px;
+            margin-top: 20px;
+
+        }
+
+        #Ethnic {
+            height: 100px;
+            width: 200px;
+            border-radius: 10px;
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 35px;
+            transition: transform 1s ease-in-out;
+        }
+
+        #Ethnic img:hover {
+            transform: translateY(-10px)
+        }
+
+        #beauty {
+            display: flex;
+            justify-content: space-between;
+            margin-right: 50px;
+            margin-left: 30px;
+        }
+
+        #gold {
+            margin-left: -5px;
+
+
+
+        }
+
+        #ico {
+            font-size: 40px;
+            color: #6625ff;
+            margin-top: -60px;
+            margin-left: 280px;
+        }
+
+        #pictures {
+            transition: transform 1s ease-in-out;
+        }
+
+        #pictures img:hover {
+            transform: translateY(-10px)
+        }
+
+        #image {
+            margin-top: 50px;
+            margin-right: 40px;
+        }
+
+        #product {
+            margin-left: 90px;
+        }
+
+        #category {
+            height: 200px;
+            width: 200px;
+        }
+
+        #Materials {
+            height: 30px;
+            width: 30px;
+
+        }
+
+
+        .dropdown {
+            display: grid;
+            width: 90%;
+            left: 5%;
+            grid-template-columns: auto auto auto auto auto auto auto;
+            gap: 0;
+            position: absolute;
+            top: 19%;
+
+        }
+
+        h2 {
+            color: #9f2089;
+        }
+
+        a {
+            text-decoration: none;
+            color: #616173;
+            transition: ease-in-out 0.5s;
+        }
+
+        a:hover {
+            color: black;
+        }
+
+        li {
+            list-style: none;
+            text-indent: -40px;
+            margin-bottom: 10px;
+        }
+
+        .odd {
+            background-color: #ffffff;
+            padding: 15px;
+        }
+
+        .even {
+            background-color: #f8f8ff;
+            padding: 15px;
+        }

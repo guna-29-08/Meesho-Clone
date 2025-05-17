@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <style>
+        #backcolor {
+            height: 1000px;
+            width: 1450px;
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="backcolor">
+
+    </div>
+    <div id="box"
+        style=" height: 700px;width: 400px;background-color:white;margin-top: -900px;margin-left: 500px;border-radius: 10px;">
+        <img src="https://images.meesho.com/images/marketing/1661417516766.webp"
+            style="height:220px;width:400px;border-radius: 10px;">
+        <h2 style="text-indent:60px;margin-top: 50px;">Enter OTP Sent to the number</h2>
+        <h2 style="color:#5c114d;margin-left: 60px;">CHANGE NUMBER</h2>
+        <input type="text" id="otpInput" placeholder="Enter OTP"
+            style="padding: 10px; font-size: 16px; width: 80%; border: 1px solid #ccc; border-radius: 5px;margin-left: 50px;margin-top:50px ;">
+        <p id="error" style="margin: 0;margin-left: 50px; color: red;font-size: 20px"></p>
+        <p id="sucess" style="margin: 0;margin-left: 50px; color: green;font-size: 20px"></p>
+        <div id="continue">
+
+            <button onclick="verifyOTP()"
+                style="height: 40px; width: 250px; background-color: #5c114d; color: white; display: flex; justify-content: center; align-items: center; border: none; border-radius: 5px; margin: 30px auto; font-size: 18px; cursor: pointer;margin-top: 60px;">
+                Verify
+            </button>
+            </a>
+
+            <script src="script.js"></script>
+
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
